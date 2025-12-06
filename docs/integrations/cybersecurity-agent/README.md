@@ -11,6 +11,7 @@ The n8n Cybersecurity Agent is a comprehensive security framework that provides:
 - 📡 **Network Scanning**: WiFi, BLE, NFC, and API monitoring
 - 🔍 **Vulnerability Scanner**: Automated CVE detection and patching
 - 🎯 **Ethical Hacking Tools**: Penetration testing and attack simulation
+- 🐙 **GitHub Security**: Repository scanning, secret detection, compliance
 - 🤖 **n8n Automation**: Complete workflow integration
 
 ## Quick Installation
@@ -49,6 +50,7 @@ cyber-agent start --all
 | **Honeypot & Firewall** | Trap systems and firewall | [Honeypot](./honeypot.md) |
 | **Network Scanner** | WiFi, BLE, NFC scanning | [Network Scanner](./network-scanner.md) |
 | **Vulnerability Scanner** | CVE scanning and patching | [Vulnerability Scanner](./vulnerability-scanner.md) |
+| **GitHub Security** | Repository and code security | [GitHub Security](./github-security.md) |
 | **Ethical Hacking** | Penetration testing tools | [Ethical Hacking](./ethical-hacking.md) |
 | **n8n Workflows** | Automation workflows | [Automation](./automation-workflows.md) |
 | **Integration Guide** | Complete setup guide | [Integration](./integration-guide.md) |
@@ -97,6 +99,13 @@ cyber-agent start --all
 - Attack simulation
 - Security validation
 - Training scenarios
+
+### 🐙 GitHub Security
+- Repository scanning
+- Secret detection
+- Dependabot integration
+- Actions monitoring
+- Auto-remediation
 
 ## Quick Examples
 

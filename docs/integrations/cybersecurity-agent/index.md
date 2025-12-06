@@ -13,6 +13,7 @@ This cybersecurity agent integrates multiple security layers to protect your aut
 - **Network Scanning**: WiFi, BLE, NFC, and API endpoint scanning
 - **Vulnerability Management**: Automated scanning and patching
 - **Remote Access Control**: Block and monitor unauthorized access attempts
+- **GitHub Security**: Repository scanning, secret detection, and compliance monitoring
 - **Automated Incident Response**: n8n-powered security automation
 
 ## Architecture
@@ -75,6 +76,14 @@ graph TB
 - Configuration security audit
 - Automated patching recommendations
 
+### 7. GitHub Security Agent
+- Repository security scanning
+- Secret and credential detection
+- Dependabot integration
+- GitHub Actions security monitoring
+- Branch protection enforcement
+- Automated remediation
+
 ## Quick Start
 
 ### Prerequisites
@@ -111,6 +120,7 @@ See detailed guides:
 - [AI Defense Configuration](./ai-defense.md)
 - [Network Scanner Setup](./network-scanner.md)
 - [Honeypot Deployment](./honeypot.md)
+- [GitHub Security Agent](./github-security.md)
 - [Automated Response Workflows](./automation-workflows.md)
 - [Vulnerability Management](./vulnerability-scanner.md)
 - [Ethical Hacking & Testing](./ethical-hacking.md)
