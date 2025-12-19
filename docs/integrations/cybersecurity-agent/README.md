@@ -32,8 +32,11 @@ cyber-agent init
 cyber-agent start --all
 ```
 
-## 5-Minute Setup
+## 🚀 5-Minute Production Setup
 
+**⚡ For immediate production deployment with Docker Compose, see the [Quick Deploy Guide](./quick-deploy.md)**
+
+Alternative manual setup:
 1. **Install**: `npm install -g @n8n-io/cybersecurity-agent`
 2. **Configure**: `cyber-agent init` (interactive setup)
 3. **Start**: `cyber-agent start --all`
@@ -44,6 +47,7 @@ cyber-agent start --all
 
 | Topic | Description | Link |
 |-------|-------------|------|
+| **⚡ Quick Deploy** | **Production deployment in 5 minutes** | **[Quick Deploy](./quick-deploy.md)** |
 | **Getting Started** | Installation and basic setup | [Index](./index.md) |
 | **Token Manager** | JWT token management system | [Token Manager](./token-manager.md) |
 | **AI Defense** | AI-powered threat detection | [AI Defense](./ai-defense.md) |

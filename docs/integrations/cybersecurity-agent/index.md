@@ -116,6 +116,7 @@ npx cyber-agent init
 ## Integration with n8n Workflows
 
 See detailed guides:
+- [⚡ Quick Deploy Guide](./quick-deploy.md) - **START HERE for immediate deployment!**
 - [Token Management API](./token-manager.md)
 - [AI Defense Configuration](./ai-defense.md)
 - [Network Scanner Setup](./network-scanner.md)
