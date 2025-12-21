@@ -1,0 +1,121 @@
+/**
+ * Egyptian Arabic RTL (Right-to-Left) Support
+ * للغة العربية - الدعم من اليمين إلى اليسار
+ */
+
+/* Enable RTL for Arabic content */
+[lang="ar-EG"],
+[lang="ar"] {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Admin Panel RTL Adjustments */
+.admin-dashboard[lang="ar-EG"] {
+  direction: rtl;
+}
+
+.admin-dashboard[lang="ar-EG"] .admin-sidebar {
+  order: 2;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.admin-dashboard[lang="ar-EG"] .admin-main {
+  order: 1;
+}
+
+.admin-dashboard[lang="ar-EG"] .nav-item {
+  border-left: none;
+  border-right: 4px solid transparent;
+}
+
+.admin-dashboard[lang="ar-EG"] .nav-item:hover,
+.admin-dashboard[lang="ar-EG"] .nav-item.active {
+  border-right-color: #ff6d5a;
+}
+
+/* Chat messages RTL */
+.admin-dashboard[lang="ar-EG"] .user-message {
+  flex-direction: row;
+}
+
+.admin-dashboard[lang="ar-EG"] .agent-message {
+  flex-direction: row-reverse;
+}
+
+.admin-dashboard[lang="ar-EG"] .user-message .message-content {
+  border-radius: 12px 12px 0 12px;
+}
+
+.admin-dashboard[lang="ar-EG"] .agent-message .message-content {
+  border-radius: 12px 12px 12px 0;
+}
+
+/* Form elements RTL */
+.admin-dashboard[lang="ar-EG"] input,
+.admin-dashboard[lang="ar-EG"] textarea,
+.admin-dashboard[lang="ar-EG"] select {
+  text-align: right;
+  direction: rtl;
+}
+
+/* Login modal RTL */
+.auth-modal[lang="ar-EG"] {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Egypt flag styling */
+#egypt-flag {
+  animation: wave 2s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-10deg); }
+  75% { transform: rotate(10deg); }
+}
+
+/* Egyptian theme colors */
+:root {
+  --egypt-red: #CE1126;
+  --egypt-white: #FFFFFF;
+  --egypt-black: #000000;
+  --egypt-gold: #C09300;
+}
+
+/* Optional: Egypt-themed header */
+.egypt-theme .admin-header {
+  background: linear-gradient(135deg, var(--egypt-red) 0%, var(--egypt-black) 100%);
+}
+
+/* Arabic font optimization */
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cairo'), local('Cairo-Regular');
+}
+
+.admin-dashboard[lang="ar-EG"] {
+  font-family: 'Cairo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Egyptian business hours indicator */
+.business-hours-indicator {
+  padding: 0.5rem 1rem;
+  background: var(--egypt-gold);
+  color: white;
+  text-align: center;
+  font-weight: 600;
+}
+
+.business-hours-indicator.closed {
+  background: #999;
+}
+
+/* Geo-restriction message styling */
+.geo-restricted {
+  background: linear-gradient(135deg, var(--egypt-red), var(--egypt-black));
+  color: white;
+}
