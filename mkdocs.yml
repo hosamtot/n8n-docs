@@ -72,10 +72,13 @@ extra_css:
   - _extra/css/templates-widget.css
   - _extra/css/workflow-demo.css
   - _extra/css/feedback.css
+  - _extra/css/admin-panel.css
 # https://squidfunk.github.io/mkdocs-material/customization/?h=#additional-javascript
 extra_javascript:
   - _extra/javascript/feedback.js
   - _extra/javascript/kapa_widget.js
+  - _extra/javascript/auth.js
+  - _extra/javascript/admin-panel.js
 watch:
   - _snippets
   - _overrides
